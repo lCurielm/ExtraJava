@@ -11,7 +11,7 @@ public class Deck{
 
     public Deck(){
         generator = new Random();
-        shuffleDeck();
+        initialize();
     }
 
     public Deck(int seed){
